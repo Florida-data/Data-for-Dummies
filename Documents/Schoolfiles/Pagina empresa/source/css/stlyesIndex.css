@@ -1,0 +1,225 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #000;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+}
+#particles-js{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.navbar{
+    max-height: 4.5rem;
+    background-color: #000;
+
+}
+#logosm{
+    max-width: 60px;
+}
+#navbar-titulo{
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.8); 
+    margin-top: .5rem;
+    font-family: "Montserrat";
+}
+
+
+#container-slogan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Oswald";
+    background-color: #000;
+}
+#container-slogan h4{
+    font-weight: bolder;
+    font-size: 9.5rem;
+    color: #d1c2c2;
+}
+#container-slogan h4{
+    padding-top: 14.4rem;
+    background-color: #000;
+}
+
+
+
+
+
+#container-title{
+    margin-top: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000;
+    z-index: 1000;
+    
+    
+    
+}
+
+#title-dfd{
+    
+    color: #d1c2c2;
+    font-weight: bolder;
+    font-size: 10rem;
+    font-family: "Questrial";
+    margin-top: 100vh;
+    
+
+}
+
+#zoom-out{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    
+    
+}
+#container-logo-dfd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-content: center;
+    
+    width: 100%; 
+    height: 60vh; 
+    background-color: #000;
+    margin-top: 30vh;
+    
+    
+    
+}
+#logo-dfd{
+    width: 10rem;
+    
+}
+#container-logo-dfd h4{
+    font-size: 9rem;
+    font-family: "Borlow";
+    font-weight: bolder;
+    letter-spacing: 1rem;
+    margin-left: 5rem;
+    color: #fff;
+}
+#spacer{
+    
+    height: 100vh;
+}
+#container-about{
+    position: relative;
+    height: 220vh;
+}
+#container-button-up{
+    position: sticky;
+    top: 90vh;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    
+}
+#button-up{
+    border-radius: 1000px;
+    
+    
+    width: 3rem;
+    margin-right: 1vw;
+
+}
+
+#wrapperHorizontalScrolling {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  #wrapperHorizontalScrolling #container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: fit-content;
+  }
+  
+  #wrapperHorizontalScrolling #container section {
+    width: 100vw;
+    height: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+    box-sizing: border-box;
+  }
+  
+  #wrapperHorizontalScrolling #container section:not(:last-child) {
+    margin-right: 5vw;
+  }
+  
+  .title-p {
+    margin-bottom: 2rem;
+  }
+  
+  .text-p {
+    text-align: justify;
+    line-height: 1.6;
+    max-width: 80%;
+  }
+
+
+
+
+
+
+
+
+.title-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    color: #fff; 
+    margin-bottom: 2rem;
+
+}
+.text-p {
+    font-family: 'roboto', serif;
+    font-size: 2rem;
+    color: #fff; 
+    line-height: 1.6;
+    margin: 0; 
+    font-weight: lighter;
+    text-align: justify;
+}
+ul:not(.navbar-nav) {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+li:not(.nav-item) {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem; 
+    color: #fff;
+    padding: 1rem 2rem;
+    text-align: justify;
+}
+.col img{
+    border-radius: 10px;
+}
+
+
+
+
+
+
